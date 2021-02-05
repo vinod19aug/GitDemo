@@ -1,4 +1,4 @@
-package demo.git;
+package demo.git.ui;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
@@ -7,6 +7,8 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
+
+import demo.git.SceneController;
 
 public class Scene implements Screen , InputProcessor {
     public SceneController controller;
